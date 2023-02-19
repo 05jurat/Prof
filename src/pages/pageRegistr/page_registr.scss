@@ -1,0 +1,167 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.Registr{
+    margin-left: 430px;
+    width: 478px;
+    height: 550px;
+    margin-top: 20px;
+    background: #e9d7d7;
+    border-radius: 10px;
+    .textP{
+        font-family: 'Nunito' sans-serif;
+        font-style: normal;
+        font-weight: 700;
+        font-size: 20px;
+        padding: 25px;
+        line-height: 26px;
+        letter-spacing: -0.2px;
+    }
+    .close{
+        font-size: 15px;
+        border-radius: 0px;
+        color: #A3A3A4;
+        position: absolute;
+        left: 880px;
+        top: 120px;
+    }
+    .grids{
+        display: grid;
+        grid-template-columns: 205px 205px;
+        row-gap: 15px;
+        padding-left: 25px;
+        column-gap: 15px;
+        position: relative;
+        bottom: 30px;
+        .namert{
+            font-family: 'Inter' sans-serif;
+            font-style: normal;
+            font-weight: 500;
+            font-size: 14px;
+            line-height: 17px;
+            letter-spacing: -0.2px;
+            color: #1C1C1C;
+        }
+        input{
+            background: #FFFFFF;
+            border: 1px solid #E4E4E4;
+            box-shadow: 0px 1px 2px rgba(56, 56, 56, 0.07);
+            border-radius: 6px;
+            height: 40px;
+            width: 205px;
+            padding: 10px;
+        }
+    }
+    .flexsde{
+        display: flex;
+        padding-left: 25px;
+        gap: 16px;
+        position: relative;
+        bottom: 10px;
+        .schoolop{
+            font-family: 'Inter' sans-serif;
+            font-style: normal;
+            font-weight: 500;
+            font-size: 14px;
+            line-height: 17px;
+            letter-spacing: -0.2px;
+            color: #1C1C1C;
+        }
+        input{
+            background: #FFFFFF;
+            border: 1px solid #E4E4E4;
+            box-shadow: 0px 1px 2px rgba(56, 56, 56, 0.07);
+            border-radius: 6px;
+            height: 40px;
+            width: 130px;
+            padding: 10px;
+        }
+    }
+    hr{
+        margin-top: 30px;
+        width: 420px;
+        border: 1px solid #E7E7E7;
+        margin-left: 25px;
+    }
+    .gmaigfdl{
+        margin-left: 25px;
+        position: relative;
+        bottom: 40px;
+        p{
+            font-family: 'Inter' sans-serif;
+            font-style: normal;
+            font-weight: 500;
+            font-size: 14px;
+            line-height: 17px;
+            letter-spacing: -0.2px;
+            color: #1C1C1C;
+        }
+        .email{
+            background: #FFFFFF;
+            border: 1px solid #E4E4E4;
+            box-shadow: 0px 1px 2px rgba(56, 56, 56, 0.07);
+            border-radius: 6px;
+            height: 40px;
+            width: 419px;
+            padding: 10px;
+           
+        }
+    }
+    .pasword{
+        display: flex;
+        margin-left: 25px;
+        position: relative;
+        bottom: 25px;
+        gap: 18px;
+        p{
+            font-family: 'Inter' sans-serif;
+            font-style: normal;
+            font-weight: 500;
+            font-size: 14px;
+            line-height: 17px;
+            letter-spacing: -0.2px;
+            color: #1C1C1C;
+        }
+        input{
+            background: #FFFFFF;
+            border: 1px solid #E4E4E4;
+            box-shadow: 0px 1px 2px rgba(56, 56, 56, 0.07);
+            border-radius: 6px;
+            height: 40px;
+            width: 200px;
+            padding: 10px;
+        }
+    }
+    .login_p{
+        text-decoration: none;
+        font-family: 'Inter' sans-serif;
+        font-size: 16px;
+        line-height: 22px;
+        text-align: center;
+        letter-spacing: -0.1px;
+        color: blue;
+        margin-left: 215px;
+        position: relative;
+        bottom: 15px;
+    }
+    .login_k{
+        text-align: center;
+        position: relative;
+        bottom: 20px;
+        text-decoration: none;
+        a{
+            text-decoration: none;
+            font-family: 'Inter' sans-serif;
+            font-style: normal;
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 24px;
+            text-align: center;
+            letter-spacing: -0.1px;
+            color: #A7AAAE;
+        }
+    }
+    
+}

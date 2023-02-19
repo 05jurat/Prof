@@ -1,0 +1,111 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.professions{
+    width: 100%;
+    height: 468px;
+    background: #00BBC7;
+    margin-top: 60px;
+    .profesi{
+        font-family: 'Nunito' sans-serif;
+        font-style: normal;
+        font-weight: 800;
+        font-size: 32px;
+        line-height: 44px;
+        text-align: center;
+        letter-spacing: -0.4px;
+        color: #FFFFFF;
+        padding-top: 60px;
+    }
+    .DOK{
+        display: flex;
+        margin-left: 75px;
+        gap: 20px;
+        margin-top: 40px;
+        div{
+            height: 170px;
+            width: 386px;
+            background-color: #FFFFFF;
+            border-radius: 10px;
+            img{
+             border-radius: 25px;
+             padding: 15px;
+            }
+            .dok{
+                margin-left: 130px;
+                font-family: 'Nunito' sans-serif;
+                font-style: normal;
+                font-weight: 700;
+                font-size: 16px;
+                line-height: 22px;
+                letter-spacing: -0.1px;
+                position: relative;
+                bottom: 160px;
+            }
+            .mest{
+                font-family: 'Inter' sans-serif;
+                font-style: normal;
+                font-weight: 400;
+                font-size: 12px;
+                line-height: 15px;
+                color: #6E7381;
+                width: 225px;
+                height: 30px;
+                margin-left: 130px;
+                position: relative;
+                bottom: 170px;
+            }
+            .salary{
+                font-family: 'Inter' sans-serif;
+                font-style: normal;
+                font-weight: 400;
+                font-size: 12px;
+                line-height: 15px;
+                color: #6E7381;
+                margin-left: 130px;
+                position: relative;
+                bottom: 180px;
+            }
+            button{
+                height: 40px;
+                width: 100px;
+                border-radius: 6px;
+                background: #FFA31A;
+                border: none;
+                margin-left: 130px;
+                position: relative;
+                bottom: 170px;
+                 a{
+                    font-family: 'Inter' sans-serif;
+                    text-decoration: none;
+                    font-size: 16px;
+                    line-height: 22px;
+                    text-align: center;
+                    letter-spacing: -0.1px;
+                    color: #FFFFFF;
+                 }
+            }
+        }
+    }
+    .buttons{
+        background: #FFFFFF;
+        box-shadow: 0px 1px 4px rgba(16, 0, 0, 0.15);
+        border-radius: 8px;
+        height: 54px;
+        width: 180px;
+        border: none;
+        margin-left: 580px;
+        margin-top:40px ;
+        a{
+            font-family: 'Inter' sans-serif;
+            font-size: 20px;
+            line-height: 26px;
+            text-align: center;
+            letter-spacing: -0.2px;
+            color: #48CCD5;
+            text-decoration: none;
+        }
+    }
+}

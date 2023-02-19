@@ -1,0 +1,31 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.iuytr{
+    width: 484px;
+    height: 93px;
+    display: grid;
+    grid-template-columns: 120px 120px 130px;
+    gap: 30px;
+    margin-left: 430px;
+    margin-top: 50px;
+    img{
+        width: 48px;
+        height: 48px;
+        margin-left:52px;
+    }
+    .numberjhgfkjhgf{
+        font-family: 'Inter' sans-serif;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 15px;
+        text-align: center;
+        padding-bottom: -15px;
+        color: #6E7381;
+        position: relative;
+        left: 13px;
+    }
+}

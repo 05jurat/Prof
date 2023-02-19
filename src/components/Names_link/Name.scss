@@ -1,0 +1,44 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.names{
+    width: 285px;
+    height: 246px;
+    margin-left: 120px;
+    margin-top: 40px;
+    background: #F4F4F4;
+    border-radius: 10px;
+    display: grid;
+    gap:2px ;
+    padding: 12px;
+    div{
+        border-radius: 6px;
+        height: 43px;
+        width: 260px;
+        padding: 10px;
+        a{
+            text-decoration: none;
+            font-family: 'Nunito' sans-serif;
+            font-style: normal;
+            font-weight: 700;
+            font-size: 16px;
+            line-height: 22px;
+            letter-spacing: -0.1px;
+            color: #6E7381;
+        }
+        .me1{
+            color: #EC5147;
+        }
+        &:hover{
+            background: #E3E3E3;
+            a{
+                color: #1c1c1c;
+            }
+            .me1{
+                color: #EC5147;
+            }
+        }
+    }
+}

@@ -1,0 +1,29 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.Malumot{
+    width: 623px;
+    height: 463px;
+    margin-left: 380px;
+    margin-top: 70px;
+    .lorm{
+        margin-top: 30px;
+    }
+    .kub{
+        width: 623px;
+        height: 194px;
+        display: grid;
+        grid-template-columns: 186px 186px 186px;
+        gap: 24px;
+        margin-top: 30px;
+        div{
+            background: #C0C0C0;
+            border-radius: 10px;
+        }
+    }
+}
+.footer{
+    margin-top: 120px;
+}

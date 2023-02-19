@@ -1,0 +1,82 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.Footer{
+    height: 210px;
+    width: 1110px;
+    margin-left: 120px;
+    border-radius: 16px;
+    background: #F4F4F4;
+    border-radius: 16px;
+    .prof{
+        font-size: 30px;
+        font-weight: bold;
+        padding: 40px;
+        color: #48CCD5;
+        span{
+            color: #FFA945;
+        }
+    }
+    .Centr{
+        height: 66px;
+        width: 200px;
+        font-family: 'Inter' sans-serif;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 22px;
+        letter-spacing: -0.1px;
+        color: #6E7381;
+        position: relative;
+        left: 40px;
+        bottom: 50px;
+    }
+    .flex{
+        display: grid;
+        grid-template-columns: 200px 200px 200px 200px;
+        column-gap: 15px;
+        margin-left: 330px;
+        position: relative;
+        bottom: 180px;
+         li{
+            list-style: none;
+            padding-top: 5px;
+            a{
+                text-decoration: none;
+                font-family: 'Inter' sans-serif;
+                font-style: normal;
+                font-weight: 400;
+                font-size: 16px;
+                line-height: 24px;
+                letter-spacing: -0.1px;
+                color: #1C1C1C;
+                            }           
+         }
+    }
+    .ol{
+        position: relative;
+        bottom: 8px;
+        right: 20px;
+        .networks{
+            list-style: none;
+        padding-top: 15px;
+            a{
+                color: #48CCD5;
+            
+            }   
+        }  
+     }
+     .instagram{
+        margin-left: 620px;
+        position: absolute;
+        bottom: 25px;
+        .http{
+            width: 30px;
+            height: 30px;
+            border-radius: 100px;
+            margin-top: 5px;
+        }
+     }
+}

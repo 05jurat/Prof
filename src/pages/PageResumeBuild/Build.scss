@@ -1,0 +1,223 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.data{
+    height: 100px;
+    width: 100%;
+    background: #00BBC7;
+    p{
+        font-family: 'Nunito' sans-serif;
+        font-style: normal;
+        font-weight: 800;
+        font-size: 32px;
+        line-height: 44px;
+        text-align: center;
+        letter-spacing: -0.4px;
+        color: #FFFFFF;
+        padding-top: 25px;
+    }
+}
+.asidesl{
+    width: 794px;
+    height: 1530px;
+    background: #F4F4F4;
+    border-radius: 10px;
+    margin-left: 270px;
+    margin-top: 40px;
+    padding: 25px;
+    .man{
+        font-family: 'Nunito' sans-serif;
+        font-style: normal;
+        font-weight: 700;
+        font-size: 20px;
+        line-height: 26px;
+        letter-spacing: -0.2px;
+        color: #000000;
+    }
+    .account{
+        display: grid;
+        grid-template-columns: 272px 272px;
+        column-gap: 14px;
+        row-gap: 63px;
+        margin-left: 150px;
+        position: relative;
+        bottom: 40px;
+        div{
+            box-shadow: 0px 1px 2px rgba(56, 56, 56, 0.07);
+            border-radius: 6px;
+            height: 17px;
+            width: 272px;
+            input{
+                background: #FFFFFF;
+                border: 1px solid #E4E4E4;
+                box-shadow: 0px 1px 2px rgba(56, 56, 56, 0.07);
+                border-radius: 6px;
+                height: 40px;
+                width: 272px;
+                position: relative;
+                bottom: 15px;
+                padding-left: 10px;
+            }
+        }
+        img{
+            padding-left: 43px;
+            position: relative;
+            bottom: 50px;
+        }
+    }
+    .name{
+        display: flex;
+        gap: 50px;
+        margin-left: 150px;
+        position: relative;
+        bottom: 70px;
+    }
+    hr{
+        position: relative;
+        bottom: 460px;
+    }
+    .limtt{
+        @extend .man;
+        position: relative;
+        bottom: 440px;
+    }
+    .taloms{
+        position: relative;
+        bottom: 450px
+    }
+    .schoolsses{
+        @extend .name;
+        position: relative;
+        bottom: 480px
+    }
+    .regions{
+    @extend .account;
+    position: relative;
+        bottom: 460px
+    }
+    .emails{
+        margin-left: 150px;
+        display: grid;
+        grid-template-columns: 177px 177px 177px;
+        gap: 12px;
+        margin-top: 20px;
+       
+        div{
+            height: 17px;
+            width: 177px;  
+            position: relative;
+            bottom: 410px;          
+            input{
+                background: #FFFFFF;
+                border: 1px solid #E4E4E4;
+                box-shadow: 0px 1px 2px rgba(56, 56, 56, 0.07);
+                border-radius: 6px;
+                height: 40px;
+                width: 177px;
+                position: relative;
+                bottom: 15px;
+                padding-left: 10px;
+            }
+        }
+    }
+    .hr{
+        margin-top: 150px;
+    }
+    .lengs{
+        @extend .limtt;
+    }
+    .mother{
+        @extend .emails;
+       div{
+        bottom: 485px;
+       }
+    }
+    .hr1{
+    margin-top: 70px;    
+    }
+    .experience{
+        @extend .limtt;
+    }
+    .yes{
+       @extend .schoolsses;
+      
+    }
+    .namfs{
+        @extend .account;
+        position: relative;
+        bottom: 455px
+    }
+    .sum{
+       @extend .emails;
+    }
+    .wrayting{
+        margin-left: 150px;
+        position: relative;
+        bottom: 350px;
+    }
+    textarea{
+        margin-left: 150px;
+        background: #FFFFFF;
+        border: 1px solid #E4E4E4;
+        box-shadow: 0px 1px 2px rgba(56, 56, 56, 0.07);
+        border-radius: 6px;
+        height: 80px;
+        width: 559px;
+        position: relative;
+        bottom: 360px;
+        padding: 10px;
+    }
+    .hr2{
+        margin-top: 140px;
+    }
+    .hr3{
+        position: relative;
+        bottom:400px
+    }
+    .Kariera{
+        @extend .limtt;
+    }
+    .who{
+        @extend .account;
+        div{
+        position: relative;
+        bottom: 440px;
+        }
+    }
+    .buttonlkjh{
+        margin-left: 400px;
+        position: relative;
+        bottom: 370px;
+        button{
+            background: #FFFFFF;
+            box-shadow: 0px 1px 2px rgba(56, 56, 56, 0.07);
+            border-radius: 6px;
+            height: 40px;
+            width: 161px;
+            border: none;
+            margin-left: 10px;
+            a{
+                text-decoration: none;
+                font-family: 'Inter' sans-serif;
+                font-size: 16px;
+                line-height: 22px;
+                text-align: center;
+                letter-spacing: -0.1px;
+                color: #6E7381;
+            }
+        }
+        .one{
+            @extend button;
+            background-color: #EC5147;
+            a{
+                color: #fff;
+            }
+        }
+    }
+  
+}
+.fotesr{
+    margin-top: 100px;
+}

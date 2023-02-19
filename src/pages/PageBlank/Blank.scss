@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;300;400&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+$FontFamily:'Montserrat' sans-serif;
+.Link{
+    width: 100%;
+    height: 40px;
+    left: 0px;
+    top: 0px;
+    background: #48CCD5;
+    display: flex;
+    .fes{
+        height: 22.5px;
+        width: 22.5px;
+        border-radius: 100px;
+        margin: 9px;
+        left: 120px;
+        position: relative;
+    }
+    .Lengs{
+        position: absolute;
+        width: 70px;
+        height: 20px;
+        right: 120px;
+        top: 11px;
+        color: #ffff;
+        background-color: #48CCD5;
+        border: none;
+            }       
+}
+.coloros_div{
+    width: 1110px;
+    height: 1600px;
+    margin-left:120px;
+    display: grid;
+    grid-template-columns: 72px 72px 72px 72px 72px 72px 72px 72px 72px 72px 72px 72px 72px 72px 72px;
+    column-gap: 22.5px;
+    div{
+        background: linear-gradient(#f7a8b5, #fadae0);
+    }
+}
+.lorrm{
+    position: absolute;
+    width: 1112px;
+    height: 366px;
+    left: 120px;
+    top: 156px;
+    border: 1px solid #E0E0E0;
+    box-shadow: 0px 1px 2px rgba(56, 56, 56, 0.07);
+    border-radius: 6px;
+    .page{
+        font-family: $FontFamily;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 28px;
+        line-height: 34px;
+        color: #111111;
+        margin: 30px;
+            }
+            .Lorem{
+                width: 1055px;
+                height: 242px;
+                margin-left: 30px;
+                font-family:$FontFamily ;
+                font-style: normal;
+                font-weight: 400;
+                font-size: 16px;
+                line-height: 24px;
+                letter-spacing: -0.1px;
+                color: #6E7381;
+                
+                            }
+                            .People{
+                                margin-top: 200px;
+                                margin-left: 40px;
+                            }
+}

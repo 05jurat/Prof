@@ -1,0 +1,28 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.datas{
+    height: 60px;
+    width: 100%;
+    background: #00BBC7;
+    p{
+        margin-left: 125px;
+        padding-top: 18px;
+        a{
+            text-decoration: none;
+            font-family: 'Inter' sans-serif;
+            font-style: normal;
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 24px;
+            letter-spacing: -0.1px;
+            color: #FFFFFF;
+            opacity: 0.7;
+        }
+        span{
+            color: #FFFFFF;
+        }
+    }
+}

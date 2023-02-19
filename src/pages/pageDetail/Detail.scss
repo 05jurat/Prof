@@ -1,0 +1,355 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.backs{
+    width: 100%;
+}
+.doctor{
+    font-family: 'Nunito' sans-serif;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 32px;
+    line-height: 44px;
+    letter-spacing: -0.4px;
+    color: #1C1C1C;
+    margin-left: 120px;
+    position: absolute;
+    top: 200px;
+}
+.vrach{
+    position: absolute;
+    width: 632px;
+    height: 146px;
+    left: 120px;
+    top: 250px;
+    font-family: 'Inter' sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: -0.1px;
+    color: #1C1C1C;
+}
+.vrach_img{
+    margin-left: 900px;
+    position: relative;
+    bottom: 480px;
+}
+.info{
+    margin-left: 120px;
+    position: relative;
+    bottom: 700px;
+}
+.childsr{
+    width: 1110px;
+    height: 210px;
+    margin-left: 125px;
+    background: #FFA31A;
+    border-radius: 16px;
+    position: relative;
+    bottom: 650px;
+    .dest{
+        font-family: 'Nunito' sans-serif;
+        font-style: normal;
+        font-weight: 800;
+        font-size: 32px;
+        line-height: 44px;
+        letter-spacing: -0.4px;
+        color: #FFFFFF;
+        padding: 40px;
+    }
+    .doctors{
+        display: flex;
+        gap: 8px;
+        margin-left: 25px;
+        div{
+            background: #FFFFFF;
+            box-shadow: 0px 2px 10px rgba(75, 90, 104, 0.1);
+            border-radius: 10px;
+            height: 170px;
+            width: 170px;
+            img{
+                height: 100px;
+                width: 160px;
+                border-radius: 8px;
+                padding-left: 10px;
+                padding-top: 5px;
+            }
+            .stamatolg{
+                font-family: 'Nunito' sans-serif;
+                font-style: normal;
+                font-weight: 700;
+                font-size: 16px;
+                line-height: 22px;
+                letter-spacing: -0.1px;
+                padding-left: 16px;
+            }
+            .zubi{
+                font-family: 'Inter' sans-serif;
+                font-style: normal;
+                font-weight: 400;
+                font-size: 12px;
+                line-height: 15px;
+                color: #6E7381;
+                padding-left: 16px;
+                padding-top: 3px;
+            }
+        }
+    }
+}
+.mainsr{
+    width: 1110px;
+    height: 510px;
+    margin-left: 120px;
+    position: relative;
+    bottom: 450px;
+    display: flex;
+    .gla{
+        button{
+            width: 119px;
+            height: 32px;
+            background: #FFEDD8;
+            border-radius: 33px;
+            border: none;
+            margin-left: 15px;
+            margin-top: 15px;
+            a{
+                font-family: 'Inter' sans-serif;
+                font-style: normal;
+                font-weight: 600;
+                text-decoration: none;
+                font-size: 16px;
+                line-height: 24px;
+                letter-spacing: -0.1px;
+                color: #FFA31A;
+                
+            }
+        }
+    }
+    .news{
+        font-family: 'Nunito' sans-serif;
+        font-style: normal;
+        position: absolute;
+        margin-left: 515px;
+        margin-top: 50px;
+        font-weight: 800;
+        font-size: 32px;
+        line-height: 44px;
+        letter-spacing: -0.4px;
+        color: #1C1C1C;
+    }
+    .Lorems{
+        position: absolute;
+        width: 541px;
+        height: 75px;
+        font-family: 'Inter' sans-serif;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 24px;
+        letter-spacing: -0.1px;
+        color: #6E7381;
+        margin-left: 515px;
+        margin-top: 105px;
+    }
+    .trues{
+        display: grid;
+        grid-template-rows: 36px 36px 36px 36px 36px;
+        grid-template-columns: 36px;
+        gap: 15px;
+        position: absolute;
+        left: 520px;
+        top: 230px;
+        .divs{
+            border-radius: 100%;
+            
+            img{
+                padding: 11px;
+                width: 16px;
+                height: 12px;
+            }
+        }
+    }
+    .Textssr{
+        display: grid;
+        gap: 12px;
+        margin-top: 225px;
+        left: 570px;
+        position: absolute;
+        .divv{
+            p{
+                font-family: 'Inter' sans-serif;
+                font-style: normal;
+                font-weight: 400;
+                font-size: 16px;
+                line-height: 22px;
+                letter-spacing: -0.1px;
+                color: #1C1C1C;
+            }
+        }
+    }
+}
+.name{
+width: 795px;
+height: 407px;
+margin-left: 300px;
+position: relative;
+bottom: 450px;
+.plus{
+    font-family: 'Nunito' sans-serif;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 32px;
+    line-height: 44px;
+    text-align: center;
+    letter-spacing: -0.4px;
+    color: #1C1C1C;
+}
+ .estr{
+    font-family: 'Inter' sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    width: 537px;
+    height: 53px;
+    margin-left: 135px;
+    line-height: 24px;
+    text-align: center;
+    letter-spacing: -0.1px;
+    color: #1C1C1C;
+ }
+ .smile{
+    display: flex;
+    gap: 15px;
+    margin-top: 15px;
+ }
+}
+.monthlys{
+    position: absolute;
+    width: 1110px;
+    height: 280px;
+    left: 120px;
+    top: 2265px;
+    background: #E0F8FF;
+    border-radius: 16px;
+    img{
+        padding: 25px;
+    }
+    .textt{
+        font-family: 'Nunito' sans-serif;
+        font-style: normal;
+        font-weight: 800;
+        font-size: 32px;
+        line-height: 44px;
+        letter-spacing: -0.4px;
+        color: #1C1C1C;
+        width: 330px;
+        height: 132px;
+        margin-left: 230px;
+        position: relative;
+        bottom: 260px;
+    }
+    .infords{
+        font-family: 'Inter' sans-serif;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 24px;
+        letter-spacing: -0.1px;
+        color: #000000;
+        margin-left: 230px;
+        position: relative;
+        bottom: 250px;
+    }
+    .grup{
+        display: grid;
+        row-gap: 15px;
+        margin-left: 550px;
+        position: relative;
+        bottom: 460px;
+        .grups{
+            position: absolute;
+            top: 72px;
+            
+        }
+        .grupp{
+            position: absolute;
+        }
+    }
+}
+.doks{
+    width: 1110px;
+    height: 506px;
+    background: #E0F8FF;
+    border-radius: 16px;
+    margin-left: 120px;
+    position: relative;
+    bottom: 50px;
+    .job_s{
+        font-family: 'Nunito' sans-serif;
+        font-style: normal;
+        font-weight: 800;
+        font-size: 32px;
+        line-height: 44px;
+        text-align: center;
+        letter-spacing: -0.4px;
+        color: #1C1C1C;
+        padding-top: 60px;
+     }
+     .text_t{
+        font-family: 'Inter' sans-serif;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 24px;
+        text-align: center;
+        letter-spacing: -0.1px;
+        color: #1C1C1C;
+        width: 620px;
+        height: 74px;
+        margin-left: 250px;
+     }
+     .gerb{
+        display: flex;
+        gap: 15px;
+        margin-left:80px;
+        margin-top: 30px;
+     }
+     .video{
+        padding-left: 215px;
+        padding-top: 70px;
+     }
+ }
+ .dok_d{
+    width: 1110px;
+    height: 304px;
+    margin-top: 400px;
+    margin-left: 120px;
+    p{
+        font-family: 'Nunito' sans-serif;
+        font-style: normal;
+        font-weight: 800;
+        font-size: 32px;
+        line-height: 44px;
+        text-align: center;
+        letter-spacing: -0.4px;
+        color: #1C1C1C;
+    }
+    .dokd{
+        display: flex;
+        gap: 20px;
+        padding-left: 25px;
+        padding-top: 40px;
+        div{
+            img{
+            width: 250px;
+            }
+        }
+    }
+ }
+ .footer{
+    margin-top: 70px;
+ }
