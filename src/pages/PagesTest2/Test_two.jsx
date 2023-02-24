@@ -34,7 +34,7 @@ function Test() {
     <p className='worklj'>Ish joyi: Maktab, Universitet, Kollej va boshqa o'quv markazlari</p>
     <p className='sum'>Maoshi*: 1 500 000 - 3 000 000 sum</p>
    <button>
-     <Link className='sil' to="/Detail">{t('More')}</Link>
+     <Link className='sil' to="/Detail">Batafsil</Link>
      </button>
     </div>
     <div> 
@@ -43,7 +43,7 @@ function Test() {
     <p className='worklj'>Ish joyi: Maktab, Universitet, Kollej va boshqa o'quv markazlari</p>
     <p className='sum'>Maoshi*: 1 500 000 - 3 000 000 sum</p>
     <button>
-   <Link className='sil' to="/Detail">{t('More')}</Link>
+   <Link className='sil' to="/Detail">Batafsil</Link>
      </button>
     </div>
     <div> 
@@ -52,7 +52,7 @@ function Test() {
     <p className='worklj'>Ish joyi: Maktab, Universitet, Kollej va boshqa o'quv markazlari</p>
     <p className='sum'>Maoshi*: 1 500 000 - 3 000 000 sum</p>
     <button>
-   <Link className='sil' to="/Detail">{t('More')}</Link>
+   <Link className='sil' to="/Detail">Batafsil</Link>
      </button>
     </div>
     <div> 
@@ -61,7 +61,7 @@ function Test() {
     <p className='worklj'>Ish joyi: Maktab, Universitet, Kollej va boshqa o'quv markazlari</p>
     <p className='sum'>Maoshi*: 1 500 000 - 3 000 000 sum</p>
     <button>
-   <Link className='sil' to="/Detail">{t('More')}</Link>
+   <Link className='sil' to="/Detail">Batafsil</Link>
      </button>
     </div>
   </div>

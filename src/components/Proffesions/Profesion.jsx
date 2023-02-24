@@ -36,4 +36,4 @@ function Profesion() {
   )
 }
 
-export default Profesion
+export default Profesion;

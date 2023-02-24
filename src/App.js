@@ -1,4 +1,3 @@
-
 import './App.scss'
 import Resume from './pages/PageResume/Resume'
 import Result from './pages/PageResult/Result'
@@ -46,5 +45,4 @@ function Blank() {
 
   );
 }
-
 export default Blank;

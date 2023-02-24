@@ -11,8 +11,8 @@ function Build() {
       <header className='header'>
         <Header/>
       </header>
-      <div className='data'>
-          <p>{t('Mening')}</p>
+      <div className='datasw'>
+          <p className='resume'>Mening resume</p>
       </div>
 <aside className='asidesl'>
   <p className='man'>Shaxsiy</p>

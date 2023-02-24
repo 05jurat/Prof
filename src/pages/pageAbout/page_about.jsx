@@ -26,7 +26,6 @@ function About() {
     <div className='footer'>
     <Footer/>
     </div>
-
     </div>
   );
 }

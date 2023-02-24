@@ -65,7 +65,9 @@ function Traning() {
 </button>
 </div>
  </main>
- <Footer />
+<div className='past'>
+<Footer />
+</div>
 
     </div>
   );

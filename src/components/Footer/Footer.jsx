@@ -14,8 +14,8 @@ const Footer = () => {
          <ol>
          <li><Link   to='/About'>Biz haqimizda</Link ></li>
          <li><Link   to='/Contact'>Yordam</Link ></li>
-           <li><Link to="/About">Shaxsiy ma'lumotlarim</Link></li>
-           <li><a href="/Contact">Parolni yangilash</a></li>
+           <li><Link to="/Ends">Shaxsiy ma'lumotlarim</Link></li>
+           <li><a href="/ProMain">Parolni yangilash</a></li>
          </ol>
        </nav>
        </div>
